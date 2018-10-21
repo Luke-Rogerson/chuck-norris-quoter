@@ -4,6 +4,6 @@ const chuckNorrisQuotesController = require('./controllers/chuckNorrisQuotesCont
 
 router
   .get('/newJoke', chuckNorrisQuotesController.getRandomJoke)
-  .get('/pokemon/:id', chuckNorrisQuotesController.getAllJokes);
+  .get('/allJokes', chuckNorrisQuotesController.getAllJokes);
 
 module.exports = router;

@@ -8,13 +8,13 @@ db.Quotes = mongoose.model( 'Quotes', {
   joke: String
 });
 
-db.getRandomJoke = async () => {
+db.getRandomJokeFromDatabase = async () => {
    const lengthOfCollection = await db.Quotes.count({});
    const random = Math.floor(Math.random() * lengthOfCollection);
    return await db.Quotes.findOne().skip(random).exec();
 };
 
-db.getAllJokes = async () => {
+db.getAllJokesFromDatabase = async () => {
   return await db.Quotes.find().sort({ID: 'asc'}).exec();
 };
 
