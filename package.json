@@ -1,0 +1,24 @@
+{
+  "name": "chuck-norris-quoter",
+  "version": "1.0.0",
+  "description": "A project to practice using a front-end framework (Angular) and back-end (Koa, MongoDB/Moongose) together.",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luke-Rogerson/chuck-norris-quoter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luke-Rogerson/chuck-norris-quoter/issues"
+  },
+  "homepage": "https://github.com/Luke-Rogerson/chuck-norris-quoter#readme"
+}
