@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ShowAllQuotesComponent } from './show-all-quotes/show-all-quotes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    ShowAllQuotesComponent
   ],
   imports: [
     BrowserModule,
